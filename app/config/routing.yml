@@ -1,0 +1,8 @@
+sports_stats_web:
+    resource: "@SportsStatsWebBundle/Resources/config/routing.yml"
+    prefix:   /
+
+triathlon_stats_web:
+    resource: "@TriathlonStatsWebBundle/Resources/config/routing.yml"
+    prefix:   /
+
