@@ -36,4 +36,11 @@
         </whitelist>
     </filter>
 
+    <listeners>
+        <listener class="PHPUnit\Runner\CleverAndSmart\TestListener">
+            <arguments>
+                <object class="PHPUnit\Runner\CleverAndSmart\Storage\Sqlite3Storage"/>
+            </arguments>
+        </listener>
+    </listeners>
 </phpunit>
